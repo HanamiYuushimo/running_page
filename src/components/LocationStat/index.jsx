@@ -13,13 +13,14 @@ const LocationStat = ({ changeYear, changeCity, changeTitle }) => (
     <section className="pb4" style={{ paddingBottom: '0rem' }}>
       <p style={{ lineHeight: 1.8 }}>
         {CHINESE_LOCATION_INFO_MESSAGE_FIRST}
-        .
+        。
+        <br />
         <br />
         {CHINESE_LOCATION_INFO_MESSAGE_SECOND}
-        .
+        。
         <br />
         <br />
-        Yesterday you said tomorrow.
+        Don't let your dreams be dreams.
       </p>
     </section>
     <hr color="red" />
