@@ -20,7 +20,7 @@ const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = true;
 const CHINESE_INFO_MESSAGE = (yearLength, year) => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
-  return `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是${yearStr}的数据`;
+  return `我用 Keep 记录自己跑步 ${yearLength} 年了，下面列表展示的是${yearStr}的数据`;
 }
 const ENGLISH_INFO_MESSAGE = (yearLength, year) =>
   `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
@@ -28,7 +28,7 @@ const ENGLISH_INFO_MESSAGE = (yearLength, year) =>
 // not support English for now
 const CHINESE_LOCATION_INFO_MESSAGE_FIRST =
   '我跑过了一些地方，希望随着时间推移，地图点亮的地方越来越多';
-const CHINESE_LOCATION_INFO_MESSAGE_SECOND = '我们至今为止所做的一切，并不是全部徒劳的. 今后也是，只要不停下脚步，道路就会不断延伸';
+const CHINESE_LOCATION_INFO_MESSAGE_SECOND = '我们至今为止所做的一切，并不是全部徒劳的。今后也是，只要不停下脚步，道路就会不断延伸';
 
 const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
 const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '全程马拉松' : 'Full Marathon';
@@ -66,6 +66,6 @@ const nike = 'rgb(224,237,94)'; // if you want change the main color change here
 
 // If your map has an offset please change this line
 // issues #92 and #198
-export const NEED_FIX_MAP = false;
+export const NEED_FIX_MAP = true;
 export const MAIN_COLOR = nike;
 export const PROVINCE_FILL_COLOR = '#47b8e0';
