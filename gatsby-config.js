@@ -1,17 +1,21 @@
 module.exports = {
-  pathPrefix: '/running_page', // Change to `/running_page` when running on github pages
+  pathPrefix: '/', // Change to `/running_page` when running on github pages
   siteMetadata: {
-    siteTitle: 'My Running Page',
+    siteTitle: '幽霜的 Running Page',
     siteUrl: 'https://github.com/HanamiYuushimo/running_page',
     logo: 'https://raw.githubusercontent.com/HanamiYuushimo/running_page/main/headicon.png',
-    description: 'Personal site and blog',
+    description: "As long as we don't stop, the road will continue.",
     navLinks: [
+      {
+        name: 'My Blog',
+        url: 'https://hanamiyuushimo.github.io',
+      },
       {
         name: 'My Github',
         url: 'https://github.com/HanamiYuushimo',
       },
       {
-        name: 'About',
+        name: 'About this Project',
         url: 'https://github.com/HanamiYuushimo/running_page/blob/main/README.md',
       },
     ],
